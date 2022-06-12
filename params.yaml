@@ -1,0 +1,5 @@
+
+
+data_location:
+  data_given_by_client: data_given_by_client/card_transdata.csv
+  raw_data_path: data/raw/raw_data.csv

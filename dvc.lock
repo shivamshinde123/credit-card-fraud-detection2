@@ -1,18 +1,34 @@
 schema: '2.0'
 stages:
   load_data:
-    cmd: python src\\load_data.py --config=params.yaml
+    cmd: python src/load_data.py --config=params.yaml
     deps:
-    - path: data_given_by_client\\card_transdata.csv
+    - path: data_given_by_client/card_transdata.csv
       md5: e3e6816e421b06706ddd35897e2f1b89
       size: 76277977
-    - path: src\\get_data.py
+    - path: src/get_data.py
       md5: da2ba259e9c744cce4f5f770fe25546d
       size: 705
-    - path: src\\load_data.py
+    - path: src/load_data.py
       md5: 2d6b04ebf0f01a2571ee75c71a2f7a04
       size: 633
     outs:
-    - path: data\\raw\\raw_data.csv
+    - path: data/raw/raw_data.csv
       md5: eb6770e8e8afe91a9c73ad55bcc5222d
       size: 76591708
+  split_data:
+    cmd: python src/split_data.py --config=params.yaml
+    deps:
+    - path: src/get_data.py
+      md5: da2ba259e9c744cce4f5f770fe25546d
+      size: 705
+    - path: src/split_data.py
+      md5: 40a9c8e22f9b45c90e5bdb875e7367ca
+      size: 963
+    outs:
+    - path: data/processed/test_data.csv
+      md5: a8845d8bcf70db499b066a4b052bf8a3
+      size: 22969240
+    - path: data/processed/train_data.csv
+      md5: 8c83e17f0606ac636171a3c688f3f11e
+      size: 53595215

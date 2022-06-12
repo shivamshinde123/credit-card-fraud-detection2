@@ -1,14 +1,13 @@
 ## Credit card fraud detection
 
 Author: Shivam Dattatray Shinde
+
+
 Description: The objective of the project is to create a model which will be able to tell whether the performed transaction is fraud or not given some features of the transaction
 
 ## Project Organization 
 ------------
 
-(generated with [datasciencemvp](https://github.com/cliffclive/datasciencemvp/))
-
-(modified from [cookiecutter-datascience](https://drivendata.github.io/cookiecutter-data-science/))
 
 ```
     ├── LICENSE

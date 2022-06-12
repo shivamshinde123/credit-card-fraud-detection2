@@ -1,0 +1,14 @@
+{
+    "distance_from_home": {
+        "min": 0.0048743851,
+        "max": 10632.7236722411
+    },
+    "distance_from_last_transaction": {
+        "min": 0.0001182816,
+        "max": 11851.1045649461
+    },
+    "ratio_to_median_purchase_price": {
+        "min": 0.0043992396,
+        "max": 267.8029421833
+    }
+}

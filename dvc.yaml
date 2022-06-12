@@ -1,0 +1,12 @@
+stages:
+  load_data:
+    cmd: python src\\load_data.py --config=params.yaml
+    deps:
+    - src\\load_data.py
+    - src\\get_data.py
+    - data_given_by_client\\card_transdata.csv
+    outs:
+    - data\\raw\\raw_data.csv
+
+
+    

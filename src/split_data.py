@@ -14,10 +14,11 @@ def split_data(config_path):
     test_size = config['General']['test_size']
     train_data_path = config['data_location']['train_data_path']
     test_data_path = config['data_location']['test_data_path']
+    target_col = config["General"]["target_col"]
 
     df = pd.read_csv(raw_data_path)
 
-    train, test = train_test_split(df, random_state=random_state, test_size=test_size)
+    train, test = train_test_split(df, random_state=random_state, test_size=test_size,stratify=df[target_col])
 
     train.to_csv(train_data_path, index=False, sep=',')
     test.to_csv(test_data_path, index=False, sep=',')

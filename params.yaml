@@ -1,6 +1,7 @@
 General:
   random_state: 43
   test_size: 0.3
+  target_col: fraud
 
 data_location:
   data_given_by_client: data_given_by_client/card_transdata.csv

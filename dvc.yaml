@@ -13,9 +13,20 @@ stages:
     deps:
     - src/split_data.py
     - src/get_data.py
+    - data/raw/raw_data.csv
     outs:
     - data/processed/train_data.csv
     - data/processed/test_data.csv
 
-
-    
+  train_and_evaluate:
+    cmd: python src/train_and_evaluate.py --config=params.yaml
+    deps:
+    - src/get_data.py
+    - src/train_and_evaluate.py
+    - data/processed/train_data.csv
+    - data/processed/test_data.csv
+    metrics:
+    - reports/scores.json:
+        cache: false
+    outs:
+    - models/model.joblib

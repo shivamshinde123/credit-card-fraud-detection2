@@ -8,3 +8,12 @@ data_location:
   raw_data_path: data/raw/raw_data.csv
   train_data_path: data/processed/train_data.csv
   test_data_path: data/processed/test_data.csv
+
+Prediction_service:
+  model_dir: models/model.joblib
+
+webpage:
+  static_dir: webpage/static
+  templates_dir: webpage/templates
+
+  

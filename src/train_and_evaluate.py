@@ -8,7 +8,7 @@ from sklearn.metrics import precision_score, recall_score, f1_score
 import json
 import os
 import joblib
-
+## training and evaluating
 def train_and_evaluate(config_path):
 
     config = read_params(config_path)

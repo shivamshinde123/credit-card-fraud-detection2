@@ -9,7 +9,6 @@ import json
 import os
 import joblib
 
-
 def train_and_evaluate(config_path):
 
     config = read_params(config_path)

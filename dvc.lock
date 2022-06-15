@@ -48,8 +48,8 @@ stages:
       md5: da2ba259e9c744cce4f5f770fe25546d
       size: 705
     - path: src/train_and_evaluate.py
-      md5: 52150cf51050fbb80fec20676cc29211
-      size: 1894
+      md5: eb5876ea999732e4569f6331cee5d5ad
+      size: 1932
     outs:
     - path: models/model.joblib
       md5: c3081d9ac704509bb298449715b9bc35

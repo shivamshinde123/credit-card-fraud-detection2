@@ -166,7 +166,6 @@ pylint==2.14.1
 PyMeeus==0.5.11
 pyOpenSSL==22.0.0
 pyparsing==3.0.7
-pypiwin32==223
 pyppeteer==1.0.2
 pyrsistent==0.18.1
 python-benedict==0.25.1
@@ -174,7 +173,6 @@ python-dateutil==2.8.2
 python-fsutil==0.6.1
 python-slugify==6.1.2
 pytz==2021.3
-pywin32==303
 pywinpty==2.0.5
 PyYAML==6.0
 pyzmq==22.3.0

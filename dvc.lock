@@ -26,8 +26,8 @@ stages:
       md5: da2ba259e9c744cce4f5f770fe25546d
       size: 705
     - path: src/split_data.py
-      md5: 035298b6c1cd26aabe69bc7ff2117c52
-      size: 1037
+      md5: ec09908ff425430bac80c0d140f1e3f2
+      size: 1033
     outs:
     - path: data/processed/test_data.csv
       md5: 84ded8891d504eed0f1fd786500a68f6
@@ -48,8 +48,8 @@ stages:
       md5: da2ba259e9c744cce4f5f770fe25546d
       size: 705
     - path: src/train_and_evaluate.py
-      md5: eb5876ea999732e4569f6331cee5d5ad
-      size: 1932
+      md5: 87c6875efb8621f5c947357e6ed77251
+      size: 1918
     outs:
     - path: models/model.joblib
       md5: c3081d9ac704509bb298449715b9bc35

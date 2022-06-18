@@ -1,8 +1,6 @@
 import argparse
 from get_data import read_params
 import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import precision_score, recall_score, f1_score
 import json
@@ -10,6 +8,14 @@ import os
 import joblib
 ## training and evaluating
 def train_and_evaluate(config_path):
+
+    """This method is used to train the model using the train data. The method also evaluates the model using test data and notes down the metrics in json file
+
+    Args:
+        config_path (str): Path to the parameters yaml file
+
+    Returns: None
+    """
 
     config = read_params(config_path)
 
@@ -50,6 +56,14 @@ def train_and_evaluate(config_path):
 
 
 def evaluate_metrics(y_true, y_pred):
+
+    """This method is used to calculate the precision, recall and f1 score for the trained model given the known data and predicted values
+
+    Returns:
+        - precision (float): precision of the trained model 
+        - recall (float):  recall of the trained model
+        - f1 score (float): f1 score of the trained model
+    """
 
     precision = precision_score(y_true, y_pred)
     recall = recall_score(y_true, y_pred)

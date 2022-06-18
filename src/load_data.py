@@ -7,6 +7,14 @@ from get_data import get_data, read_params
 
 
 def load_and_save(config_path):
+
+    """This method is used to load the model from the location where client has put it and store it in the local storage.
+
+    Args:
+        config_path (str): Path to the parameters yaml file
+    
+    Returns: None
+    """
     config = read_params(config_path)
     raw_data_path = config['data_location']['raw_data_path']
     df = get_data(config_path)

@@ -4,6 +4,14 @@ from get_data import read_params
 import pandas as pd
 
 def split_data(config_path):
+
+    """This method is used to split the data into train data and the test data
+
+    Args:
+        config_path (str): Path to the parameters yaml file
+
+    Returns: None
+    """
     
     config = read_params(config_path)
 

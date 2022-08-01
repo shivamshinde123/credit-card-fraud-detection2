@@ -1,48 +1,71 @@
-## Credit card fraud detection
 
-Author: Shivam Dattatray Shinde
+# Credit Card Fruad Detection
 
-
-Description: The objective of the project is to create a model which will be able to tell whether the performed transaction is fraud or not given some features of the transaction
-
-## Project Organization 
-------------
+The aim of the project is to predict whether the performed transaction is fraud is not given some of the features of the transaction in question.
 
 
+## Screenshots
+
+#### Home page
+![Home Page](https://i.postimg.cc/KvBjmsxS/img1.png)
+
+#### Entering Feature Values
+![Entering Feature Values](https://i.postimg.cc/yNY8X19s/img2.png)
+
+#### Results Page
+![Results Page](https://i.postimg.cc/7ZNL2G5K/img3.png)
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+    git clone https://github.com/shivamshinde123/credit-card-fraud-detection2.git
 ```
-    ├── LICENSE
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
+
+Go to the project directory
+
+```bash
+    cd project-name
 ```
+
+Create a conda environment
+
+```bash
+    conda create -n environment_name python=3.10
+```
+
+Activate the created conda environment
+
+```bash
+    conda activate environment_name
+```
+
+Install dependencies
+
+```bash
+  pip install requirements.txt
+```
+
+Start the server
+
+```bash
+  python app.py
+```
+
+
+## 🚀 About Me
+I'm an aspiring data scientist and a data analyst.
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherinempeterson.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivamds92722/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://www.twitter.com/ShivamS64852411)
+
+
+## Documentation
+
+[Documentation](https://linktodocumentation)
+

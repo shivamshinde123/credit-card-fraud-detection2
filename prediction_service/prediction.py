@@ -48,6 +48,8 @@ def form_response(dict_request):
     data = dict_request.values()
     data = np.array([list(map(float,data))])      # Another set of closed brackets used since we need 2D array for predict method to work)
 
+    print(data)
+
     if validate_input(dict_request):
         response = Predict(data)
         return response

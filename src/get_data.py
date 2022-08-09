@@ -19,7 +19,6 @@ def read_params(config_path):
 
     with open(config_path) as config_yaml:
         config = yaml.safe_load(config_yaml)
-
     return config
 
 

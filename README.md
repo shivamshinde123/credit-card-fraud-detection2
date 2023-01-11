@@ -1,5 +1,11 @@
 
 # Credit Card Fruad Detection
+![](https://img.shields.io/github/last-commit/shivamshinde123/credit-card-fraud-detection2)
+![](https://img.shields.io/github/languages/count/shivamshinde123/credit-card-fraud-detection2)
+![](https://img.shields.io/github/languages/top/shivamshinde123/credit-card-fraud-detection2)
+![](https://img.shields.io/github/repo-size/shivamshinde123/credit-card-fraud-detection2)
+![](https://img.shields.io/github/directory-file-count/shivamshinde123/credit-card-fraud-detection2)
+![](https://img.shields.io/github/license/shivamshinde123/credit-card-fraud-detection2)
 
 The aim of the project is to predict whether the performed transaction is fraud is not given some of the features of the transaction in question.
 

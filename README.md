@@ -33,8 +33,7 @@ dealing with this challenge.</p>
 ![](https://img.shields.io/badge/-HTML-%23E34F26)
 ![](https://img.shields.io/badge/-CSS-%231572B6)
 ![](https://img.shields.io/badge/-JavaScript-%23F7DF1E)
-![](https://img.shields.io/badge/-Git-%23F05032)
-![](https://img.shields.io/badge/-DVC-%2313ADC7)
+
 
 
 # Python Libraries Used

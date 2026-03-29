@@ -25,6 +25,10 @@ happening in various domains, mainly in the retail domain. These are detrimental
 ecosystem of online transactions. Machine learning provides an intelligent option in
 dealing with this challenge.</p>
 
+## Detailed Documentation
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shivamshinde123/credit-card-fraud-detection2)
+
 # Project Workflow
 ![image](https://user-images.githubusercontent.com/54674972/213406840-266fe8a3-5c77-448d-b85a-9954678caee2.png)
 
